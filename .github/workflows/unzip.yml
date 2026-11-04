@@ -19,7 +19,9 @@ jobs:
           for f in *.zip; do
             if [ -e "$f" ]; then
               echo "Mengekstrak: $f"
-              unzip -o "$f" -d unpacked_files/
+              # Mengekstrak langsung ke root repository (./)
+              unzip -o "$f" -d ./
+              # Menghapus file zip setelah diekstrak
               rm "$f"
             fi
           done
@@ -27,5 +29,5 @@ jobs:
       - name: Simpan Perubahan ke Repository
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Otomatis ekstrak file ZIP via GitHub Actions"
+          commit_message: "Otomatis ekstrak file ZIP langsung ke root repository"
           branch: main
