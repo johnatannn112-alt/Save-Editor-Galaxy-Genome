@@ -1,12 +1,9 @@
 GALAXY GENOME SAVE EDITOR (PWA)
 
-Pasang: unggah SEMUA isi folder ini ke host statis https (Netlify Drop, Cloudflare Pages, atau
-GitHub Pages dengan folder lengkap). Buka alamatnya, lalu pasang lewat menu browser
-("Instal aplikasi" / "Tambahkan ke layar utama").
+Pasang: unggah SEMUA isi folder ini ke host statis https (GitHub Pages atau Netlify), buka alamatnya,
+lalu pasang lewat menu browser ("Instal aplikasi"). Setelah memperbarui, buka aplikasi dua kali
+supaya versi baru menggantikan yang tersimpan.
 
-Pakai: pilih Save1.SOL, Save2.SOL, atau Save3.SOL, ubah, tekan Unduh. Salin dulu file aslinya sebagai cadangan.
-Tampilan: HP tegak memakai layout satu kolom; HP miring atau layar lebar memakai bingkai lanskap seperti di game.
+Pakai: pilih Save1.SOL, Save2.SOL, atau Save3.SOL, ubah, tekan Unduh. Salin dulu file aslinya.
 
 Dasar kode: Galaxy Genome Quest Editor (MIT, lihat LICENSE).
-Perubahan: hangar tanpa beli, kargo tambah/kurangi saja, gudang Stasiun Anda bisa ditambah,
-routing hash agar jalan di alamat mana pun, dan layout tegak untuk HP.
