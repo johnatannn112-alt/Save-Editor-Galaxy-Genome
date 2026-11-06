@@ -1,9 +1,5 @@
 GALAXY GENOME SAVE EDITOR (PWA)
 
-Pasang: unggah SEMUA isi folder ini ke host statis https (GitHub Pages atau Netlify), buka alamatnya,
-lalu pasang lewat menu browser ("Instal aplikasi"). Setelah memperbarui, buka aplikasi dua kali
-supaya versi baru menggantikan yang tersimpan.
-
-Pakai: pilih Save1.SOL, Save2.SOL, atau Save3.SOL, ubah, tekan Unduh. Salin dulu file aslinya.
-
+Unggah SEMUA isi folder ini ke host statis https (GitHub Pages atau Netlify). Setelah memperbarui, buka aplikasi dua kali.
+Pilih Save1.SOL, Save2.SOL, atau Save3.SOL, ubah, tekan Download. Salin dulu file aslinya.
 Dasar kode: Galaxy Genome Quest Editor (MIT, lihat LICENSE).
